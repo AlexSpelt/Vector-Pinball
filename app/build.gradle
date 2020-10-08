@@ -24,6 +24,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 // jars and native libraries retrieved from https://oss.sonatype.org/content/repositories/releases/com/badlogicgames/gdx/
