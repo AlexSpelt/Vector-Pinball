@@ -18,7 +18,7 @@ android:
   - sys-img-x86-android-29
   
 script:
-  - ./gradle test
+  - ./gradlew test
   
 deploy:
   provider: releases
