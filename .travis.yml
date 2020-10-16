@@ -19,6 +19,7 @@ android:
 
 script:
   - "./gradlew test"
+  - "./gradlew lint"
   - "./gradlew build"
 
 deploy:
